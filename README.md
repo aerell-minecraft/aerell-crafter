@@ -1,4 +1,4 @@
-# Better Crafter
+# Better Crafter (for Fabric)
 
 ![Crafter block](src/main/resources/assets/bettercrafter/icon.png)
 
@@ -7,7 +7,7 @@
 A small, simple but effective mod that improves the use of Crafter block. Forked from [BetterCrafter](https://github.com/Fern-Aerell/BetterCrafter)
 
 ## Required
-- Fabric API (If your use Fabric Loader)
+- Fabric API([Modrinth](https://modrinth.com/mod/fabric-api)/[CurseForg](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
 ## Features
 ### New Crafter Mechanism
