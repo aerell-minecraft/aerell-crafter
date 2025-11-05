@@ -1,6 +1,10 @@
-# Better Crafter
+<p align="center">
+    <img src="./titles/title.png" width="400px">
+</p>
 
-![Crafter block](pack_icons/pack_icon.png)
+> This mod has been renamed from Better Crafter to Aerell Crafter and is in Development.
+
+---
 
 [![Static Badge](https://img.shields.io/badge/Version-1.0.0--1.21.3-green)](CHANGELOG.md)
 
