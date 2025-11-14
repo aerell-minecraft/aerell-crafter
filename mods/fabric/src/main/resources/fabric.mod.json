@@ -3,7 +3,7 @@
 	"id": "aerellcrafter",
 	"version": "${version}",
 	"name": "Aerell Crafter",
-	"description": "This mod will improve the crafter block.",
+	"description": "This mod will improve the crafter block in Minecraft.",
 	"authors": [
 		"Fern Aerell"
 	],
@@ -16,20 +16,10 @@
 	"entrypoints": {
 		"main": [
           "dev.fernaerell.aerellcrafter.AerellCrafter"
-		],
-		"client": [
-          "dev.fernaerell.aerellcrafter.AerellCrafterClient"
-		],
-		"fabric-datagen": [
-          "dev.fernaerell.aerellcrafter.AerellCrafterDataGenerator"
 		]
 	},
 	"mixins": [
-      "aerellcrafter.mixins.json",
-		{
-			"config": "aerellcrafter.client.mixins.json",
-			"environment": "client"
-		}
+      "aerellcrafter.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.3",
