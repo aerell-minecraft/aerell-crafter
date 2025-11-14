@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class AerellCrafter implements ModInitializer {
-    public static final Logger LOGGER = LoggerFactory.getLogger("aerellcrafter");
+    public static final Logger LOGGER = LoggerFactory.getLogger("Aerell Crafter");
 
 	@Override
 	public void onInitialize() {
