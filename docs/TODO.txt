@@ -1,0 +1,4 @@
+Minecraft Aerell Crafter
+ISSUES & TODO LIST
+- Support: Minecraft 1.21.1
+- Support: Minecraft 1.21.11
