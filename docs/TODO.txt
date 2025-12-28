@@ -1,3 +1,4 @@
 Minecraft Aerell Crafter
 ISSUES & TODO LIST
 - Support: Minecraft 1.21.11
+- Feature: Make Crafter auto sort items
