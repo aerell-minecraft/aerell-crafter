@@ -1,4 +1,9 @@
-Minecraft Aerell Crafter
+Aerell Crafter
 ISSUES & TODO LIST
+
 - License: Update license type in mod file
+
+- BUG: Fix unstackable items (e.g. milk buckets) breaking cake recipes in Crafter
+  Note/Suggestion: Consider "slot locking/ghost items" for automation to fix the unstackable item issue (as suggested on GitHub)
+
 - Feature: Make Crafter auto sort items
