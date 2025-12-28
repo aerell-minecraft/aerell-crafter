@@ -1,5 +1,4 @@
 Minecraft Aerell Crafter
 ISSUES & TODO LIST
-- Support: Minecraft 1.21.11
 - License: Update license type in mod file
 - Feature: Make Crafter auto sort items
