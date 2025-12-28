@@ -7,6 +7,7 @@ import net.minecraft.block.entity.CrafterBlockEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraft.world.block.WireOrientation;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
@@ -24,7 +25,7 @@ abstract class CrafterBlockMixin {
     }
 
     @Inject(method = "neighborUpdate", at = @At("HEAD"), cancellable = true)
-    private void neighborUpdateInject(BlockState state, World world, BlockPos pos, Block sourceBlock, BlockPos blockPos, boolean notify, CallbackInfo ci) {
+    private void neighborUpdateInject(BlockState state, World world, BlockPos pos, Block sourceBlock, WireOrientation wireOrientation, boolean notify, CallbackInfo ci) {
         if(this.aerellcrafter$isTemplatedOrEmpty(world, pos) && !world.getBlockState(pos).get(TRIGGERED)) ci.cancel();
     }
 
