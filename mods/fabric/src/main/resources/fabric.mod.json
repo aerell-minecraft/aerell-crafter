@@ -10,7 +10,7 @@
 	"contact": {
 		"youtube": "https://www.youtube.com/@aerelltech"
 	},
-	"license": "All rights reserved",
+	"license": "MIT",
 	"icon": "assets/aerellcrafter/pack_icon.png",
 	"environment": "*",
 	"entrypoints": {
